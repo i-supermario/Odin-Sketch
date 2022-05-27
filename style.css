@@ -1,3 +1,14 @@
-.maingrid{
-    display: grid;
+#maingrid{
+    display: inline-grid;
+}
+.cell{
+    display: block;
+    background-color: black;
+    border-color: white;
+    transition: all 500ms ease;
+
+}
+.cell:hover{
+    background-color: aqua;
+    border-color: white;
 }
